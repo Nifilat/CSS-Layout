@@ -53,7 +53,7 @@ body{
     padding: 48px;
 }
 
-button a{
+button > a{
     background-color: hsl(0, 0%, 95%);
     border: none;
     padding: 10px 25px;
@@ -73,7 +73,7 @@ button a{
     margin-top: 40px;
 }
 
-button a:hover {
+button > a:hover {
     color: hsl(0, 0%, 95%);
     background: #ffffff00;
 
@@ -117,7 +117,7 @@ h2{
         flex-direction: column;
     }
 
-     button a {
+     button > a {
         margin-top: 20px;
     }
 }
